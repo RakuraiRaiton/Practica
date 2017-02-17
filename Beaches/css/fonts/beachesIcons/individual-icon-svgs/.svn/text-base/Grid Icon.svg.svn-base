@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #00abe6;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Grid_Icon.svg" data-name="Grid Icon.svg" class="cls-1" d="M1146,1532h6v6h-6v-6Zm0-7h6v6h-6v-6Zm0-7h6v6h-6v-6Zm7,14h6v6h-6v-6Zm0-7h6v6h-6v-6Zm0-7h6v6h-6v-6Zm7,14h6v6h-6v-6Zm0-7h6v6h-6v-6Zm0-7h6v6h-6v-6Z" transform="translate(-1146 -1518)"/>
+</svg>
