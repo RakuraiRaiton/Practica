@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Slider</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/sliderPW.css">
+	</head>
+	<body>
+		<div id="slider">
+			<img class="slide" src="img/slide1.jpg" />
+			<img class="slide" src="img/slide2.jpg" />
+			<img class="slide" src="img/slide3.jpg" />
+			<img class="slide" src="img/slide4.jpg" />
+			<img class="slide" src="img/slide5.jpg" />
+			<div class="navigation">
+				<div class="nav-prev nav"></div>
+				<div class="nav-next nav"></div>
+			</div>
+		</div>
+		<div class="selection">
+			<ul class="slider-icon">
+				<ul class="border-to-right">
+					<a href="" class="icon-video play"></a>
+				</ul>
+				<a href="" class="icon-bullet slider-select"></a>
+				<a href="" class="icon-bullet slider-select"></a>
+				<a href="" class="icon-bullet slider-select"></a>
+				<a href="" class="icon-bullet slider-select"></a>
+				<a href="" class="icon-bullet slider-select"></a>
+			</ul>
+		</div>
+	</body>
+	<script src="js/jquery.js" ></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="js/plugin_tpl.js" ></script>
+	<script>
+		$('#slider').consoleDisplay({speed:1000,effect:'easeInQuad'});
+	</script>
+	
+</html>

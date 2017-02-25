@@ -1,0 +1,423 @@
+@font-face {
+  font-family: 'beachesIcons';
+  src:  url('./fonts/beachesIcons/beachesIcons.eot?e5f7do');
+  src:  url('./fonts/beachesIcons/beachesIcons.eot?e5f7do#iefix') format('embedded-opentype'),
+    url('./fonts/beachesIcons/beachesIcons.ttf?e5f7do') format('truetype'),
+    url('./fonts/beachesIcons/beachesIcons.woff?e5f7do') format('woff'),
+    url('./fonts/beachesIcons/beachesIcons.svg?e5f7do#beachesIcons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+  @font-face{
+    font-family: 'bebasmod-regular-webfont';
+    src:url('./fonts/bebasRegular/bebasmod-regular-webfont.eot');
+    src:url('./fonts/bebasRegular/bebasmod-regular-webfont.eot?#iefix')format('embedded-opentype'),
+      url('./fonts/bebasRegular/bebasmod-regular-webfont.woff') format('woff'),
+      url('./fonts/bebasRegular/bebasmod-regular-webfont.ttf') format('truetype'),
+      url('./fonts/bebasRegular/bebasmod-regular-webfont.svg#bebasmod-regular-webfont') format('svg');     
+  }
+  @font-face{
+    font-family: 'yellow-mod-regular-webfont';
+    src:url('./fonts/yellowTailRegular/yellow-mod-regular-webfont.eot?#iefix')format('embedded-opentype'),
+      url('./fonts/yellowTailRegular/yellow-mod-regular-webfont.woff')format('woff'),
+      url('./fonts/yellowTailRegular/yellow-mod-regular-webfont.ttf')format('truetype'),
+      url('./fonts/yellowTailRegular/yellow-mod-regular-webfont.svg#yellow-mod-regular-webfont')format('svg');
+  }
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'beachesIcons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-down-big:before {
+  content: "\e97d";
+}
+.icon-luxury:before {
+  content: "\e97b";
+}
+.icon-concierge:before {
+  content: "\e97c";
+}
+.icon-grid-new:before {
+  content: "\e979";
+}
+.icon-list-new:before {
+  content: "\e97a";
+}
+.icon-circle-close:before {
+  content: "\e978";
+}
+.icon-album:before {
+  content: "\e975";
+}
+.icon-camara:before {
+  content: "\e976";
+}
+.icon-shoots:before {
+  content: "\e977";
+}
+.icon-jamaican-villas:before {
+  content: "\e900";
+}
+.icon-global-gourmet:before {
+  content: "\e901";
+}
+.icon-together-nest-text:before {
+  content: "\e902";
+}
+.icon-together-nest:before {
+  content: "\e903";
+}
+.icon-washer-dryer:before {
+  content: "\e904";
+}
+.icon-instagram:before {
+  content: "\e905";
+}
+.icon-engagements:before {
+  content: "\e906";
+}
+.icon-honeymoons:before {
+  content: "\e907";
+}
+.icon-rtk:before {
+  content: "\e908";
+}
+.icon-weddings:before {
+  content: "\e909";
+}
+.icon-activities:before {
+  content: "\e90a";
+}
+.icon-arrow-down:before {
+  content: "\e90b";
+}
+.icon-arrow-left:before {
+  content: "\e90c";
+}
+.icon-arrow-right:before {
+  content: "\e90d";
+}
+.icon-arrow-up:before {
+  content: "\e90e";
+}
+.icon-arrow:before {
+  content: "\e90f";
+}
+.icon-beaches:before {
+  content: "\e910";
+}
+.icon-best-price:before {
+  content: "\e911";
+}
+.icon-bullet:before {
+  content: "\e912";
+}
+.icon-butler-elite:before {
+  content: "\e913";
+}
+.icon-butler:before {
+  content: "\e914";
+}
+.icon-cal:before {
+  content: "\e915";
+}
+.icon-check:before {
+  content: "\e916";
+}
+.icon-check2:before {
+  content: "\e917";
+}
+.icon-checkin:before {
+  content: "\e918";
+}
+.icon-checkout:before {
+  content: "\e919";
+}
+.icon-close:before {
+  content: "\e91a";
+}
+.icon-compass:before {
+  content: "\e91b";
+}
+.icon-contact:before {
+  content: "\e91c";
+}
+.icon-dan:before {
+  content: "\e91d";
+}
+.icon-details-arrivals:before {
+  content: "\e91e";
+}
+.icon-details-babysitting:before {
+  content: "\e91f";
+}
+.icon-details-bring:before {
+  content: "\e920";
+}
+.icon-details-butler:before {
+  content: "\e921";
+}
+.icon-details-charge:before {
+  content: "\e922";
+}
+.icon-details-checkin:before {
+  content: "\e923";
+}
+.icon-details-currency:before {
+  content: "\e924";
+}
+.icon-details-departure:before {
+  content: "\e925";
+}
+.icon-details-dress:before {
+  content: "\e926";
+}
+.icon-details-electric:before {
+  content: "\e927";
+}
+.icon-details-gift:before {
+  content: "\e928";
+}
+.icon-details-handicap:before {
+  content: "\e929";
+}
+.icon-details-laundry:before {
+  content: "\e92a";
+}
+.icon-details-medical:before {
+  content: "\e92b";
+}
+.icon-details-passport:before {
+  content: "\e92c";
+}
+.icon-details-private:before {
+  content: "\e92d";
+}
+.icon-details-requests:before {
+  content: "\e92e";
+}
+.icon-details-safe:before {
+  content: "\e92f";
+}
+.icon-details-scuba:before {
+  content: "\e930";
+}
+.icon-details-tips:before {
+  content: "\e931";
+}
+.icon-details-transfers:before {
+  content: "\e932";
+}
+.icon-details-weather:before {
+  content: "\e933";
+}
+.icon-details-wifi:before {
+  content: "\e934";
+}
+.icon-details:before {
+  content: "\e935";
+}
+.icon-dining-diet:before {
+  content: "\e936";
+}
+.icon-divider:before {
+  content: "\e937";
+}
+.icon-dollar:before {
+  content: "\e938";
+}
+.icon-download:before {
+  content: "\e939";
+}
+.icon-english-butler:before {
+  content: "\e93a";
+}
+.icon-extras-butler:before {
+  content: "\e93b";
+}
+.icon-extras-concierge:before {
+  content: "\e93c";
+}
+.icon-extras-handicap:before {
+  content: "\e93d";
+}
+.icon-extras-lovenest:before {
+  content: "\e93e";
+}
+.icon-extras-private-transfer:before {
+  content: "\e93f";
+}
+.icon-extras-room-service:before {
+  content: "\e940";
+}
+.icon-facebook:before {
+  content: "\e941";
+}
+.icon-flipbook:before {
+  content: "\e942";
+}
+.icon-foundation:before {
+  content: "\e943";
+}
+.icon-fowlcay:before {
+  content: "\e944";
+}
+.icon-gplus:before {
+  content: "\e945";
+}
+.icon-grandpineapple:before {
+  content: "\e946";
+}
+.icon-grid:before {
+  content: "\e947";
+}
+.icon-handicap:before {
+  content: "\e948";
+}
+.icon-islandroutes:before {
+  content: "\e949";
+}
+.icon-laptop:before {
+  content: "\e94a";
+}
+.icon-list:before {
+  content: "\e94b";
+}
+.icon-lovenest:before {
+  content: "\e94c";
+}
+.icon-map:before {
+  content: "\e94d";
+}
+.icon-padi-learning:before {
+  content: "\e94e";
+}
+.icon-padi:before {
+  content: "\e94f";
+}
+.icon-person:before {
+  content: "\e950";
+}
+.icon-photo:before {
+  content: "\e951";
+}
+.icon-pinterest:before {
+  content: "\e952";
+}
+.icon-plus:before {
+  content: "\e953";
+}
+.icon-press:before {
+  content: "\e954";
+}
+.icon-privatevillas:before {
+  content: "\e955";
+}
+.icon-redlane:before {
+  content: "\e956";
+}
+.icon-rss:before {
+  content: "\e957";
+}
+.icon-sandals-select:before {
+  content: "\e958";
+}
+.icon-sandals:before {
+  content: "\e959";
+}
+.icon-select:before {
+  content: "\e95a";
+}
+.icon-share-link:before {
+  content: "\e95b";
+}
+.icon-share:before {
+  content: "\e95c";
+}
+.icon-snapshots:before {
+  content: "\e95d";
+}
+.icon-square-check:before {
+  content: "\e95e";
+}
+.icon-tag:before {
+  content: "\e95f";
+}
+.icon-tri-down:before {
+  content: "\e960";
+}
+.icon-tri-left:before {
+  content: "\e961";
+}
+.icon-tri-right:before {
+  content: "\e962";
+}
+.icon-tri-up:before {
+  content: "\e963";
+}
+.icon-twitter:before {
+  content: "\e964";
+}
+.icon-video:before {
+  content: "\e965";
+}
+.icon-vrx:before {
+  content: "\e966";
+}
+.icon-weddingmoons:before {
+  content: "\e967";
+}
+.icon-wp-lazy:before {
+  content: "\e968";
+}
+.icon-wp-pirate:before {
+  content: "\e969";
+}
+.icon-wp-slide:before {
+  content: "\e96a";
+}
+.icon-wp-surf:before {
+  content: "\e96b";
+}
+.icon-zoom:before {
+  content: "\e96c";
+}
+.icon-anniversaries:before {
+  content: "\e96d";
+}
+.icon-wmblog:before {
+  content: "\e96e";
+}
+.icon-checkmark:before {
+  content: "\e96f";
+}
+.icon-world:before {
+  content: "\e970";
+}
+.icon-headset:before {
+  content: "\e971";
+}
+.icon-divesite:before {
+  content: "\e972";
+}
+.icon-details-mobile:before {
+  content: "\e973";
+}
+.icon-global-gourmet-2:before {
+  content: "\e974";
+}
+.icon-spinner-reset:before {
+  content: "\e984";
+}
+

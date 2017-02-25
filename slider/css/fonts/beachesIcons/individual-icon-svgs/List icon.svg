@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #cdcdcd;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="List_icon.svg" data-name="List icon.svg" class="cls-1" d="M1174,1518h20v6h-20v-6Zm0,7h20v6h-20v-6Zm0,7h20v6h-20v-6Z" transform="translate(-1174 -1518)"/>
+</svg>
