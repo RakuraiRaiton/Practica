@@ -35,32 +35,29 @@
 				</div>
 			</div>
 		</header>
-		<div class="slider">
-			<div class="slidir container">
-				<div class="slider-info">
-					<a href="http://www.beaches.com"><img class=" closer pull-left" src="img/closer.png"></a>
-					<div class="selection">
-						<ul>
-							<ul class="border-to-right">
-								<a href="" class="icon-video play"></a>
-							</ul>
-							<a href="" class="icon-bullet slider-select"></a>
-							<a href="" class="icon-bullet slider-select"></a>
-							<a href="" class="icon-bullet slider-select"></a>
-							<a href="" class="icon-bullet slider-select"></a>
-							<a href="" class="icon-bullet slider-select"></a>
-							<a href="" class="icon-bullet slider-select"></a>
-							<a href="" class="icon-bullet slider-select"></a>
-							<a href="" class="icon-bullet slider-select"></a>
-							<a href="" class="icon-bullet slider-select"></a>
-							<a href="" class="icon-bullet slider-select"></a>
-						</ul>
-					</div>
+		<div class="slider-content">
+			<div class="slider">
+				<img class="slide" src="img/slider1.jpg" />
+				<img class="slide" src="img/slider2.jpg" />
+				<img class="slide" src="img/slider3.jpg" />
+				<img class="slide" src="img/slider4.jpg" />
+				<img class="slide" src="img/slider5.jpg" />
+				<img class="slide" src="img/slider6.jpg" />
+				<img class="slide" src="img/slider7.jpg" />
+				<img class="slide" src="img/slider8.jpg" />
+				<img class="slide" src="img/slider9.jpg" />
+				<img class="slide" src="img/slider10.jpg" />
+
+				<div class="navigation">
+					<div class="nav-prev nav"></div>
+					<div class="nav-next nav"></div>
 				</div>
-					<div class="prev"></div>
-					<div class="next"></div>
+			</div>
+			<div class="icons">
+				<div class="selection"></div>	
 			</div>
 		</div>
+
 		<div class="content container">
 			<div class="everyone medium pull-left">
 				<ul class="pull-right">
@@ -206,7 +203,11 @@
 				<button class="button-custom beba">Check Rates & Available</button>
 			</div>
 		</div>
-		
-
 	</body>
+	<script src="js/jquery.js" ></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="js/plugin_tpl.js" ></script>
+	<script>
+		$('#slider').consoleDisplay({speed:1000,effect:'swing'});
+	</script>	
 </html> 
